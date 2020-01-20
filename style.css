@@ -1,0 +1,53 @@
+#logo{
+    height: 65px;
+    width:  65px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+.navooo{
+    margin-left: 200px;
+}
+.navbar{
+    background-color: #3282b8;
+    
+}
+section{
+    background-image: url("img/web-development-university-worcester-course-page-header.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+}
+.titre h1{
+    color: white;
+   
+    font-family: cursive;
+    font-size: 5em;
+    
+    
+ 
+    padding-top: 110px;
+}
+.titre button{
+   
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    color: black;
+    padding-top: 10px;
+   margin-top: 40px;
+   background-color: #bbe1fa;
+   border: 0;
+} 
+.titre button:hover{
+    background-color:#3282b8 ;
+}
+.title_2{
+    background-color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+}
