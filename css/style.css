@@ -2,13 +2,14 @@
     height: 50px;
     width:  50px;
     border-radius: 50%;
-    box-shadow: 0 0 2px rgb(0, 0, 0);
+    box-shadow: 0 0 1px rgb(0, 0, 0);
 }
 .navooo{
     margin-left: 200px;
 }
 .navbar{
-    background-color: #3282b8;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
     
 }
 
@@ -26,8 +27,8 @@
     border-radius: 40px;
     color: black;
     padding-top: 10px;
-   margin-top: 40px;
-   background-color: #3282b8;
+    margin-top: 40px;
+   background-color: #acacac;
    border: 0;
 } 
 .titre button:hover{
@@ -47,7 +48,7 @@
     font-weight: bold;
    display: flex;
    justify-content: center;
-   margin-top: 20px;
+   margin-top: 30px;
 }
 .card img{
     width: 100px;
@@ -61,9 +62,84 @@
     align-items: center;
     margin-top: 50px;
     padding-top: 20px;
+    border-radius: 8px;
+  
+}
+.card:hover{
+    box-shadow: 0 0 20px rgb(97, 96, 96);
 }
 .card-body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+/* section 3 */
+.section_3{
+    display: flex;
+    margin-top: 100px;
+    padding: 40px;
+    background-color: rgb(230, 230, 230);
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+
+}
+.section_3_1{
+    width: 350px;
+}
+.section_3_1 a{
+    color: black;
+    font-weight: bold;
+}
+.section_3_2 img{
+    border-radius: 10px;
+    width: 100%;
+}
+/* section 4 */
+.realisations{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+/* section 4 */
+.the_Groupe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    background-color: rgba(179, 176, 176, 0.342);
+    height: 300px;
+    
+ 
+}
+.the_Groupe img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 2px black;
+}
+.groupe{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+   
+}
+.groupe h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    background-color: white;
+    width: 100px;
+
+}
+.client{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.client img{
+    height: 200px;
+    width: 200px;
 }
