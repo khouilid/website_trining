@@ -1,18 +1,16 @@
 #logo{
     height: 50px;
-    width:  50px;
+    width:  150px;
     border-radius: 50%;
-    box-shadow: 0 0 1px rgb(0, 0, 0);
+    box-shadow: 0 0 1px rgb(0, 0, 0); 
 }
-.navooo{
+/* .navooo{
     margin-left: 200px;
-}
+} */
 .navbar{
     background-color: #ffffff;
     box-shadow: 0 0 3px rgb(0, 0, 0);
-    
 }
-
 .text_position h1{
     color: rgb(204, 203, 203);
     font-family: cursive;
@@ -20,35 +18,34 @@
     font-weight: bold;
     padding-top: 110px;
 }
+.carousel-caption{
+    right: 0 !important;
+    left: 0 !important;
+}
 .text_position button{
-   
     width: 200px;
     height: 50px;
     border-radius: 40px;
     color: black;
     padding-top: 10px;
     margin-top: 40px;
-   background-color: #acacac;
-   border: 0;
+    background-color: #acacac;
+    border: 0;
 } 
 .titre button:hover{
-    background-color:#bbe1fa ;
+    background-color:#ffffff  !important;
 }
 .text_position{
-    /* display: block !important; */
     top: 76px;
     background-color: rgba(0, 0, 0, 0.664);
     height: 600px;
-  
-   
 }
-
 .service_items h1{
     font-size: 3em;
     font-weight: bold;
-   display: flex;
-   justify-content: center;
-   margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 .card img{
     width: 100px;
@@ -63,7 +60,6 @@
     margin-top: 50px;
     padding-top: 20px;
     border-radius: 8px;
-  
 }
 .card:hover{
     box-shadow: 0 0 20px rgb(97, 96, 96);
@@ -81,7 +77,6 @@
     background-color: rgb(230, 230, 230);
     justify-content: space-around;
     flex-wrap: wrap-reverse;
-
 }
 .section_3_1{
     width: 350px;
@@ -109,8 +104,6 @@
     flex-wrap: wrap;
     background-color: rgba(179, 176, 176, 0.342);
     height: 300px;
-    
- 
 }
 .the_Groupe img{
     height: 100px;
@@ -123,7 +116,6 @@
     display: flex;
     justify-content: center;
     align-items: center ;
-   
 }
 .groupe h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -131,15 +123,40 @@
     margin-left: 15px;
     background-color: white;
     width: 100px;
-
 }
 .client{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 .client img{
     height: 200px;
     width: 200px;
+}
+/* section 5 */
+.Testimonials{
+    margin-top: 30px;
+    background-color: rgba(179, 176, 176, 0.342) ;
+    padding: 1px;
+}
+.Our_client{
+    display: flex;
+    align-items: center;
+}
+.Our_client img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.Testimonials h4{
+    font-weight: bold;
+}
+.paragh p{
+    margin-left: 100px;
+}
+.bord{
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding-top: 11px;
 }
