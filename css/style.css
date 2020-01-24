@@ -5,17 +5,16 @@
     box-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
-/* .navooo{
-    margin-left: 200px;
-} */
-/* #navbarNav{
-    position: relative !important;
-    z-index: 2 !important;
-} */
+
 .navbar {
     background-color: #ffffff;
     box-shadow: 0 0 3px rgb(0, 0, 0);
 }
+
+#slad {
+    margin-top: 60px;
+}
+
 
 .text_position h1 {
     color: rgb(204, 203, 203);
