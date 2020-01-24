@@ -131,6 +131,11 @@
 
 }
 
+.equipe_name h5 {
+    margin-left: 15px;
+
+}
+
 .the_Groupe img {
     height: 100px;
     width: 100px;
@@ -149,7 +154,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 15px;
-    background-color: white;
+    /* background-color: white; */
     width: 100px;
 }
 
@@ -177,7 +182,7 @@
 }
 
 .Our_client img {
-    height: 90px;
+    height: 80px;
     width: 90px;
     border-radius: 50%;
     margin-right: 15px;
@@ -278,6 +283,7 @@ button {
 .input_items button:hover {
     background-color: rgb(177, 177, 177);
 }
-.footer .faater{
+
+.footer .faater {
     background-color: rgb(255, 204, 0);
 }
